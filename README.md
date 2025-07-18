@@ -1,6 +1,4 @@
-# ViSIR: Vision Transformer Single Image Reconstruction Method for Earth System Models
-
-##  [[Paper]](https://arxiv.org/abs/2502.06741)
+## [ViSIR: Vision Transformer Single Image Reconstruction Method for Earth System Models](https://arxiv.org/abs/2502.06741)
 
 **ViSIR** combines Vision Transformers (ViT) with Sinusoidal Representation Networks (SIRENs) to enhance image super-resolution tasks. The model introduces SIREN-based feedforward layers within the transformer architecture, enabling superior recovery of high-frequency details in the output image.
 
