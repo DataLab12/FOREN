@@ -16,16 +16,17 @@ ViSIR consists of the following components:
 ---
 
 ## 📁 Directory Structure
+FinalScoresVitSIRENF*.xlsx                    # Training results (loss, PSNR, SSIM, etc.)
+
+ViTSIREN2comp_image#*.png                     # Visualization comparisons of output vs ground truth
+
+visir_main.py                                 # Main training script (contains model and pipeline)
 
 ├── LR/  Folder with low-resolution input images
 
 ├── HR/  Folder with high-resolution ground truth images
 
-├── FinalScoresVitSIRENF*.xlsx # Training results (loss, PSNR, SSIM, etc.)
 
-├── ViTSIREN2comp_image#*.png # Visualization comparisons of output vs ground truth
-
-├── visir_main.py # Main training script (contains model and pipeline)
 
 
 ## 🧠 Model Highlights
