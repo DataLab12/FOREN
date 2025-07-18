@@ -104,7 +104,8 @@ ViSIR builds on ideas from:
 
 ---
 📬 Contact
-For inquiries or collaboration opportunities, feel free to reach out to [Ehsan Zeraatkar](mailto:ezeraatkar@gmail.com).
+For inquiries or collaboration opportunities, feel free to reach out to Ehsan Zeraatkar via [email](mailto:ezeraatkar@gmail.com).
+
 
 
 
