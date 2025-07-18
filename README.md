@@ -35,7 +35,7 @@ ViSIR consists of the following components:
 
 ---
 
-## 🧪 Getting Started
+## Getting Started
 
 ### 🔧 Requirements
 
@@ -52,13 +52,16 @@ LR/: Low-resolution images (e.g., 0.png)
 
 HR/: High-resolution (3×) images with the same filenames (e.g., 0.png)
 
-▶️ Run Training
+---
+
+## Run Training
 Update the visir_main.py script as needed, then run:
 
 ```
 python visir_main.py
 ```
-nside the script, you can modify:
+---
+Inside the script, you can modify:
 
 num_of_images: Total number of image pairs to train on
 
@@ -68,7 +71,8 @@ Freq: Omega₀ value for SIREN's sine activation
 
 Layer: Number of hidden layers in the SIREN block
 
-📊 Output Metrics
+---
+## Output Metrics
 After training, the model will generate:
 
 ✅ PSNR and SSIM scores
@@ -79,12 +83,14 @@ After training, the model will generate:
 
 📑 An Excel summary of results (FinalScoresVitSIRENF{Freq}H{Layer}.xlsx)
 
-Metrics
+### Metrics
 MSE: Pixel-wise error
 
 PSNR: Measures peak signal quality
 
 SSIM: Evaluates structural similarity of images
+
+---
 
 📌 Citation
 If this code or architecture helps your research, please consider citing or referencing this repository.
@@ -92,11 +98,13 @@ If this code or architecture helps your research, please consider citing or refe
 🙏 Acknowledgments
 ViSIR builds on ideas from:
 
-SIREN: Implicit Neural Representations with Periodic Activation Functions
+[SIREN: Implicit Neural Representations with Periodic Activation Functions](https://arxiv.org/abs/2006.09661)
 
-An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (ViT)
+[An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (ViT)](https://arxiv.org/abs/2010.11929)
 
+---
 📬 Contact
-For inquiries or collaboration opportunities, please reach out to the repository maintainer.
+For inquiries or collaboration opportunities, feel free to reach out to [Ehsan Zeraatkar](mailto:ezeraatkar@gmail.com).
+
 
 
