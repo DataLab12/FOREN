@@ -42,7 +42,7 @@ ViSIR consists of the following components:
 Install dependencies with pip:
 
 ```bash
-pip install torch torchvision matplotlib numpy pillow openpyxl scikit-image
+pip install -r requirements.txt
 ```
 
 🖼 Dataset Preparation
