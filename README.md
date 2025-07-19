@@ -61,7 +61,7 @@ HR/: High-resolution (3×) images with the same filenames (e.g., 0.png)
 Update the visir_main.py script as needed, then run:
 
 ```
-python visir_main.py
+python3 VISIR.py
 ```
 ---
 Inside the script, you can modify:
