@@ -62,6 +62,7 @@ Update the visir_main.py script as needed, then run:
 
 ```
 python3 VISIR.py
+python3 FOREN.py
 ```
 ---
 Inside the script, you can modify:
@@ -93,6 +94,10 @@ PSNR: Measures peak signal quality
 
 SSIM: Evaluates structural similarity of images
 
+---
+
+---
+Find a warmup example at Example folder
 ---
 
 📌 Citation
