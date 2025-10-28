@@ -95,10 +95,10 @@ PSNR: Measures peak signal quality
 SSIM: Evaluates structural similarity of images
 
 ---
+Find a warmup example at Example folder
 
 ---
-Find a warmup example at Example folder
----
+
 
 📌 Citation
 If this code or architecture helps your research, please consider citing or referencing this repository.
