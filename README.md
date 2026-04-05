@@ -1,4 +1,4 @@
-## [Frequency-aware vision transformers for high-fidelity super-resolution of Earth system models]([https://arxiv.org/abs/2502.06741](https://www.nature.com/articles/s41598-026-41020-5)) [ArXiv](https://arxiv.org/abs/2502.06741)
+## [Frequency-aware vision transformers for high-fidelity super-resolution of Earth system models]([https://arxiv.org/abs/2502.06741](https://www.nature.com/articles/s41598-026-41020-5)) , [ArXiv](https://arxiv.org/abs/2502.06741)
 
 
 **ViSIR** combines Vision Transformers (ViT) with Sinusoidal Representation Networks (SIRENs) to enhance image super-resolution tasks. The model introduces SIREN-based feedforward layers within the transformer architecture, enabling superior recovery of high-frequency details in the output image.
