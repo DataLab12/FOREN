@@ -1,10 +1,11 @@
-## [ViSIR: Vision Transformer Single Image Reconstruction Method for Earth System Models](https://arxiv.org/abs/2502.06741)
+## [Frequency-aware vision transformers for high-fidelity super-resolution of Earth system models]([https://arxiv.org/abs/2502.06741](https://www.nature.com/articles/s41598-026-41020-5)) [ArXiv](https://arxiv.org/abs/2502.06741)
+
 
 **ViSIR** combines Vision Transformers (ViT) with Sinusoidal Representation Networks (SIRENs) to enhance image super-resolution tasks. The model introduces SIREN-based feedforward layers within the transformer architecture, enabling superior recovery of high-frequency details in the output image.
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 ViSIR consists of the following components:
 
@@ -15,7 +16,7 @@ ViSIR consists of the following components:
 
 ---
 
-## 📁 Directory Structure
+##  Directory Structure
 FinalScoresVitSIRENF*.xlsx                    # Training results (loss, PSNR, SSIM, etc.)
 
 ViTSIREN2comp_image.png                     # Visualization comparisons of output vs ground truth
@@ -29,7 +30,7 @@ visir_main.py                                 # Main training script (contains m
 
 
 
-## 🧠 Model Highlights
+## Model Highlights
 
 - Integrates a ViT encoder with a SIREN-based decoder.
 - Uses positional embeddings for patch ordering.
@@ -79,13 +80,13 @@ Layer: Number of hidden layers in the SIREN block
 ## Output Metrics
 After training, the model will generate:
 
-✅ PSNR and SSIM scores
+PSNR and SSIM scores
 
-📉 Loss curves and epoch tracking
+Loss curves and epoch tracking
 
-📸 Visual side-by-side comparisons (ViTSIREN2comp_image#*.png)
+Visual side-by-side comparisons (ViTSIREN2comp_image#*.png)
 
-📑 An Excel summary of results (FinalScoresVitSIRENF{Freq}H{Layer}.xlsx)
+An Excel summary of results (FinalScoresVitSIRENF{Freq}H{Layer}.xlsx)
 
 ### Metrics
 MSE: Pixel-wise error
@@ -100,10 +101,11 @@ Find a warmup example at Example folder
 ---
 
 
-📌 Citation
-If this code or architecture helps your research, please consider citing or referencing this repository.
+Citation
+Zeraatkar, E., Faroughi, S.A. & Tešić, J. Frequency-aware vision transformers for high-fidelity super-resolution of Earth system models. Sci Rep 16, 10363 (2026). https://doi.org/10.1038/s41598-026-41020-5
 
-🙏 Acknowledgments
+
+Acknowledgments
 ViSIR builds on ideas from:
 
 [SIREN: Implicit Neural Representations with Periodic Activation Functions](https://arxiv.org/abs/2006.09661)
@@ -111,7 +113,7 @@ ViSIR builds on ideas from:
 [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (ViT)](https://arxiv.org/abs/2010.11929)
 
 ---
-📬 Contact
+Contact
 For inquiries or collaboration opportunities, feel free to reach out to Ehsan Zeraatkar via [email](mailto:ezeraatkar@gmail.com).
 
 
