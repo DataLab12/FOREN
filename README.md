@@ -102,6 +102,7 @@ Find a warmup example at Example folder
 
 
 Citation
+
 Zeraatkar, E., Faroughi, S.A. & Tešić, J. Frequency-aware vision transformers for high-fidelity super-resolution of Earth system models. Sci Rep 16, 10363 (2026). https://doi.org/10.1038/s41598-026-41020-5
 
 
